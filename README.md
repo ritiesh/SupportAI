@@ -444,18 +444,4 @@ spring:
 
 ---
 
-## Future Enhancements
 
-- [ ] Streaming responses using `ChatClient` streaming API
-- [ ] Multi-tenant support — separate knowledge bases per company
-- [ ] Similarity threshold tuning — expose `topK` and threshold via admin settings
-- [ ] UI — simple React or Thymeleaf frontend for chat
-- [ ] Observability — Spring AI metrics on `/actuator/prometheus`
-- [ ] Reranking — use `RetrievalAugmentationAdvisor` with query transformers
-- [ ] Document versioning — track and diff knowledge base changes over time
-
----
-
-## License
-
-MIT
